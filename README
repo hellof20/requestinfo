@@ -1,5 +1,6 @@
-需要python3
-
+```
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
-
-export FLASK_APP=myweb.py && flask run -h 0.0.0.0 -p 8080
+python myweb.py
+```
