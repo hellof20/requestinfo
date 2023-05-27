@@ -29,3 +29,5 @@ def index():
         headers += h + "</br>"
     return "<b>Request Header: </b></br>" + headers + "</br><b>Client_IP_Address:</b> " + ip + "</br>" + querystring
 
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8080)
